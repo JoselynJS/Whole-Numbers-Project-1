@@ -4,7 +4,7 @@ prog: main.o whole_number.o
 main.o: whole_number.h
 	g++ -std=c++11 -c main.cpp
 
-wholenumber.o: whole_number.h
+whole_number.o: whole_number.h
 	g++ -std=c++11 -c whole_number.cpp
 
 clean:
