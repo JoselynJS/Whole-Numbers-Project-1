@@ -1,6 +1,6 @@
 #include "Whole_Number.h"
 #include <cmath>
-#include <iostream>
+
 
 using namespace std;
 
