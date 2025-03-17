@@ -1,4 +1,4 @@
-#include "WholeNumber.h"
+#include "Whole_Number.h"
 #include <cmath>
 #include <iostream>
 
