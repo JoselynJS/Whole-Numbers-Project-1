@@ -1,11 +1,11 @@
-prog: main.o wholenumber.o
-	g++ -std=c++11 -o prog main.o wholenumber.o
+prog: main.o whole_number.o
+	g++ -std=c++11 -o prog main.o whole_number.o
 
-main.o: wholenumber.h
+main.o: whole_number.h
 	g++ -std=c++11 -c main.cpp
 
-wholenumber.o: wholenumber.h
-	g++ -std=c++11 -c wholenumber.cpp
+wholenumber.o: whole_number.h
+	g++ -std=c++11 -c whole_number.cpp
 
 clean:
 	rm -f *.o prog
